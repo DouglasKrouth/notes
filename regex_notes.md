@@ -15,7 +15,7 @@ Egrep searches files and attempts to match the regular expression to each line o
 ## Start and End of the Line
 It's best to get into the habit of interpreting RE in a literal way</br>
 Don't think </br>
-\^cat matches a line with "cat" at the beginning
+^cat matches a line with "cat" at the beginning
 but rather: </br>
 ^cat matches if you have the beginning of a line, followed immediately by c, followed immediately by a, followed immediately by t.
 
@@ -37,7 +37,7 @@ Example : \<H\[123456\]\> matches \<H1\>, \<H2\>, \<H3\>
 - Note that dash is a special character only inside the character class, otherwise it's treated as a normal character.
 
 ### Other examples
-\ˆcat$ - Literally means: matches if the line has a beginning-of-line (which, of course, all lines have), followed immediately by c ⋅ a ⋅ t, and then followed immediately by the end of the line.</br>
+ˆcat$ - Literally means: matches if the line has a beginning-of-line (which, of course, all lines have), followed immediately by c ⋅ a ⋅ t, and then followed immediately by the end of the line.</br>
 Effectively means: a line that consists of only cat — no extra words, spaces, punctuation... just ‘cat’.</br>
 ˆ\$ - Literally means: matches if the line has a beginning-of-line, followed immediately by the end of the line.</br>
 Effectively means: an empty line (with nothing in it, not even spaces).</br>
