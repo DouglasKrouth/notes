@@ -1,0 +1,3 @@
+Command to run grip for markdown preview
+---
+grip -b FILE.md
