@@ -39,7 +39,7 @@ Example : \<H\[123456\]\> matches \<H1\>, \<H2\>, \<H3\>
 ### Other examples
 \ˆcat$ - Literally means: matches if the line has a beginning-of-line (which, of course, all lines have), followed immediately by c ⋅ a ⋅ t, and then followed immediately by the end of the line.</br>
 Effectively means: a line that consists of only cat — no extra words, spaces, punctuation... just ‘cat’.</br>
-\ˆ\$ - Literally means: matches if the line has a beginning-of-line, followed immediately by the end of the line.</br>
+ˆ\$ - Literally means: matches if the line has a beginning-of-line, followed immediately by the end of the line.</br>
 Effectively means: an empty line (with nothing in it, not even spaces).</br>
 ˆ - Literally means: matches if the line has a beginning-of-line.</br>
 Effectively meaningless! Since every line has a beginning, every line will match — even lines that are empty!
